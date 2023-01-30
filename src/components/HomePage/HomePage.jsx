@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom';
 import { BsGithub, BsLinkedin } from "react-icons/bs";
 import AboutPage from '../About/AboutPage';
 import { FaReact, FaJsSquare, FaHtml5, FaCss3Alt} from "react-icons/fa";
+import "../../../public/assets/images"
 
 function HomePage() {
   return (
@@ -21,7 +22,7 @@ function HomePage() {
             <a  href="https://www.linkedin.com/in/marieke-linneman-ba9a6062/"><BsLinkedin className='icon is-medium'/></a>
           </div>
         </div>
-        <div className="homepage__hero__photo" style={"background-image: url(../../../public/assets/images/PhotoLaptopSmall_dviswi_c_scale,w_576.png)"}><img src={process.env.PUBLIC_URL + "assets/images/PhotoLaptopSmall_dviswi_c_scale,w_576.png"} alt='laptop' id='img'/></div>
+        <div className="homepage__hero__photo"><img src={process.env.PUBLIC_URL + "./Portfolio/assets/images/PhotoLaptopSmall_dviswi_c_scale,w_576.png"} alt='laptop' id='img'/></div>
       </div>
       <AboutPage/>
       <section className="homepage__projects">
