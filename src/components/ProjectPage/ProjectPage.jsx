@@ -9,7 +9,7 @@ function ProjectPage() {
           <h2 className="projectpage__section__header">Projects</h2>
         </div>
         <div className="projects card mt-6">
-          <img src={process.env.PUBLIC_URL + "../../../assets/images/OxygenShop.png"} alt='OxygenShop App' className="card-image"/>
+          <img src={process.env.PUBLIC_URL + "../../Portfolio/assets/images/OxygenShop.png"} alt='OxygenShop App' className="card-image"/>
           <div className="projects-container card-content pl-6">
             <div className="projects-text">
               <h2 className='title'>OxygenShop</h2>
