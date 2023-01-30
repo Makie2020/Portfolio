@@ -21,7 +21,7 @@ function HomePage() {
             <a  href="https://www.linkedin.com/in/marieke-linneman-ba9a6062/"><BsLinkedin className='icon is-medium'/></a>
           </div>
         </div>
-        <div className="homepage__hero__photo"><img src={PUBLIC_URL + "/assets/images/PhotoLaptopSmall_dviswi_c_scale,w_576.png"} alt='laptop' id='img'/></div>
+        <div className="homepage__hero__photo"><img src={"../../Portfolio/assets/images/PhotoLaptopSmall_dviswi_c_scale,w_576.png"} alt='laptop' id='img'/></div>
       </div>
       <AboutPage/>
       <section className="homepage__projects">
