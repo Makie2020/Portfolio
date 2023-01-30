@@ -29,7 +29,7 @@ function HomePage() {
         <h2 className="homepage__section__header">Projects</h2>
 
         <div className="homepage__project mt-6">
-          <img src={process.env.PUBLIC_URL + "assets/images/OxygenShop.png"} alt='OxygenShop App' className="homepage__project__img"/>
+          <img src={"../../Portfolio/assets/images/OxygenShop.png"} alt='OxygenShop App' className="homepage__project__img"/>
           <div className="homepage__project__text-container pl-6">
             <div className="homepage__project-text">
               <h2 className='title'>OxygenShop</h2>
@@ -45,7 +45,7 @@ function HomePage() {
         </div>  
 
         <div className="homepage__project my-6">
-          <img src={process.env.PUBLIC_URL + "assets/images/BuscoPhoto.png"} alt='Buscophoto App' className="homepage__project__img"/>          
+          <img src={"../../Portfolio/assets/images/BuscoPhoto.png"} alt='Buscophoto App' className="homepage__project__img"/>          
           <div className="homepage__project__text-container pl-6">
             <div className="homepage__project-text">
               <h2 className='title'>Buscophoto</h2>
@@ -60,7 +60,7 @@ function HomePage() {
           </div>
         </div>
         <div className="homepage__project mb-6">
-          <img src={process.env.PUBLIC_URL + "assets/images/Coming soon.png"} alt='Buscophoto App' className="homepage__project__img"/>             
+          <img src={"../../Portfolio/assets/images/Coming soon.png"} alt='Buscophoto App' className="homepage__project__img"/>             
           <div className="homepage__project__text-container pl-6">
             <div className="homepage__project-text">
               <h2 className='title'>Hotel Miranda</h2>
