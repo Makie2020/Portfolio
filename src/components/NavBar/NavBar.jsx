@@ -26,7 +26,7 @@ function Navbar() {
               </a>
           </div>
           <div id="navbarBasicExample" className={`navbar-menu ${isActive ? 'is-active' : ''}`}>
-            <div className  ="navbar-end">
+            <div className ="navbar-end">
               <NavLink className="navbar-item" to='Portfolio/'>Home</NavLink>
               <NavLink className="navbar-item" to='Portfolio/about'>About Me</NavLink>          
               <NavLink className="navbar-item" to='Portfolio/projects'>Projects</NavLink>
