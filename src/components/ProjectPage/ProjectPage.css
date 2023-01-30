@@ -1,0 +1,18 @@
+.projects {
+  margin: 0px 15%;
+}
+
+.projectpage__section__span {
+  display: block;
+  width: 72px;
+  height: 5px;
+  background:#006D77;
+  border-radius: 5px;
+  margin-top: 5%;
+}
+
+.projectpage__section__header {
+  font-size: 40px;
+  margin-left: auto;
+  font-family: "Bogart";
+}

@@ -1,0 +1,26 @@
+
+.about__section {
+    margin: 80px 15%;
+}
+
+.section__span {
+  display: block;
+  width: 72px;
+  height: 5px;
+  background:   #006D77;
+  border-radius: 5px;
+}
+.section__header {
+  margin-top: 15px;
+  margin-bottom: 30px;
+  font-size: 40px;
+  font-weight: 400;
+  font-family: "Bogart";
+}
+
+#img {
+  width: 400px;
+  margin: 0% 3%;
+  box-shadow: 22px 22px 0 3px var(--lightoj);
+  border-radius: 20px;
+}

@@ -1,0 +1,46 @@
+@charset "utf-8";
+
+
+// Import a Google Font
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
+
+// Set your brand colors
+$green: #006D77;
+$green-light: #83C5BE;
+$white: #FFFFFF;
+$pink-light: #FFDDD2;
+$pink: #E29578;
+$red: #f5edeb;
+$grey: hsl(0, 0%, 71%);
+$grey-dark : hsl(0, 0%, 21%);
+
+// Update Bulma's global variables
+$family-sans-serif: "Nunito", sans-serif;
+$primary: $green-light;
+$link: $grey-dark;
+$link-hover: $pink;
+$widescreen-enabled: false;
+$fullhd-enabled: false;
+
+// Update some of Bulma's component variables
+$body-background-color: $white;
+$control-border-width: 2px;
+$input-border-color: transparent;
+$input-shadow: none;
+$footer-padding: 2rem;
+$button-color: $pink;
+$modal-card-head-background-color: $red;
+$input-placeholder-color:#E29578;
+$pagination-active-color: $grey;
+
+// Import only what you need from Bulma
+@import '../bulma/sass/utilities/_all.sass';
+@import '../bulma/sass/base/_all.sass';
+@import '../bulma/sass/elements/button.sass';
+@import '../bulma/sass/elements/container.sass';
+@import '../bulma/sass/elements/title.sass';
+@import '../bulma/sass/components/navbar.sass';
+@import '../bulma/sass/components/dropdown.sass';
+@import '../bulma/sass/components/pagination.sass';
+
+@import '../bulma/bulma.sass';
