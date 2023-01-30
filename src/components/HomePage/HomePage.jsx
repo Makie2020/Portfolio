@@ -3,7 +3,6 @@ import { NavLink } from 'react-router-dom';
 import { BsGithub, BsLinkedin } from "react-icons/bs";
 import AboutPage from '../About/AboutPage';
 import { FaReact, FaJsSquare, FaHtml5, FaCss3Alt} from "react-icons/fa";
-import "../../../public/assets/images"
 
 function HomePage() {
   return (
