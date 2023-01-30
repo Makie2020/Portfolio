@@ -10,7 +10,7 @@ function AboutPage() {
           <p>Hi, my name is Marieke Linneman, a  Junior Full-Stack Web Developer from Palma de Mallorca, Spain.</p><br/>
           <p>The technlogies I work with are HTML, Javascript, Css and React.</p>
         </div>
-        <div className="about__image"><img src={process.env.PUBLIC_URL + "../../../assets/images/Photo Marieke.jpg"} alt='Marieke' id='img'/></div>
+        <div className="about__image"><img src={"../../Portfolio/assets/images/Photo Marieke.jpg"} alt='Marieke' id='img'/></div>
       </section>
     </div>
   );

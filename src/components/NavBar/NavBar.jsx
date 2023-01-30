@@ -8,7 +8,7 @@ function Navbar() {
     <div>
       <nav className="navbar is-primary" role="navigation" aria-label="main navigation">
           <div className="navbar-brand">
-              <NavLink className="navbar-item logo" to='/'>
+              <NavLink className="navbar-item logo" to='Portfolio/'>
                 ML     
               </NavLink>
               <a 
@@ -27,7 +27,7 @@ function Navbar() {
           </div>
           <div id="navbarBasicExample" className={`navbar-menu ${isActive ? 'is-active' : ''}`}>
             <div className  ="navbar-end">
-              <NavLink className="navbar-item" to='/'>Home</NavLink>
+              <NavLink className="navbar-item" to='Portfolio/'>Home</NavLink>
               <NavLink className="navbar-item" to='Portfolio/about'>About Me</NavLink>          
               <NavLink className="navbar-item" to='Portfolio/projects'>Projects</NavLink>
               <NavLink className="navbar-item" to='Portfolio/contact'>Contact</NavLink>
