@@ -3,8 +3,10 @@ import { NavLink } from 'react-router-dom';
 import { BsGithub, BsLinkedin } from "react-icons/bs";
 import AboutPage from '../About/AboutPage';
 import { FaReact, FaJsSquare, FaHtml5, FaCss3Alt} from "react-icons/fa";
+import DownloadButton from './DownloadButton';
 
 function HomePage() {
+  
   return (
     <div className='mb-6 homepage'>
       <div className='homepage__hero is-flex is-flex-direction-row is-align-items-center is-justify-content-center'>
@@ -16,7 +18,7 @@ function HomePage() {
             <NavLink className='is-size-4 ml-6' to='Portfolio/contact'>CONTACT ME</NavLink>
           </div>
           <div>
-            <button className='button'><a class="home-hero-view-resume" href="CV.pdf">View Resume</a></button> 
+            <DownloadButton className="home-hero-view-resume"/>
             <a className="mx-4" href="https://github.com/makie2020"><BsGithub className='icon is-medium'/></a>
             <a  href="https://www.linkedin.com/in/marieke-linneman-ba9a6062/"><BsLinkedin className='icon is-medium'/></a>
           </div>
@@ -27,7 +29,6 @@ function HomePage() {
       <section className="homepage__projects">
         <span className="homepage__section__span"></span>
         <h2 className="homepage__section__header">Projects</h2>
-
         <div className="homepage__project mt-6">
           <img src={"../../Portfolio/assets/images/OxygenShop.png"} alt='OxygenShop App' className="homepage__project__img"/>
           <div className="homepage__project__text-container pl-6">
@@ -76,13 +77,13 @@ function HomePage() {
         </div>  
         <NavLink className='is-size-4 ml-6 button is-centered' to='Portfolio/projects'>See more</NavLink>
       </section>  
-      <section class="homepage__technologies">
+      <section className="homepage__technologies">
         <div className='homepage__section'>
-          <span class="homepage__section__span__tech"></span>
-          <h2 class="homepage__section__header">Technologies</h2>
+          <span className="homepage__section__span__tech"></span>
+          <h2 className="homepage__section__header">Technologies</h2>
         </div>
-        <div class="homepage__tech__container">
-          <div class="homepage__tech is-flex is-justify-content-center">
+        <div className="homepage__tech__container">
+          <div className="homepage__tech is-flex is-justify-content-center">
             <FaReact className='homepage__icon'/>
             <FaJsSquare className='homepage__icon'/>
             <FaHtml5 className='homepage__icon'/>
