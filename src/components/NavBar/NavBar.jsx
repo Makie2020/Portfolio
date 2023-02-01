@@ -27,10 +27,10 @@ function Navbar() {
           </div>
           <div id="navbarBasicExample" className={`navbar-menu ${isActive ? 'is-active' : ''}`}>
             <div className ="navbar-end">
-              <NavLink className="navbar-item" to='Portfolio/'>Home</NavLink>
-              <NavLink className="navbar-item" to='Portfolio/about'>About Me</NavLink>          
-              <NavLink className="navbar-item" to='Portfolio/projects'>Projects</NavLink>
-              <NavLink className="navbar-item" to='Portfolio/contact'>Contact</NavLink>
+              <NavLink className="navbar-item" to='/'>Home</NavLink>
+              <NavLink className="navbar-item" to='/about'>About Me</NavLink>          
+              <NavLink className="navbar-item" to='/projects'>Projects</NavLink>
+              <NavLink className="navbar-item" to='/contact'>Contact</NavLink>
             </div>    
           </div>
         </nav>
