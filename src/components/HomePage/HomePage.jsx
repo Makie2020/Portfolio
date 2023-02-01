@@ -15,7 +15,6 @@ function HomePage() {
           <h1 className='is-size-1 pb-6' id='homepage__hero__h1'>Marieke Linneman</h1>
           <div className='homepage__hero__details is-flex is-flex-direction-row pb-6 is-justify-content-center'>
             <h2 className='is-size-4'>JUNIOR FRONT-END DEVELOPER</h2>
-            <NavLink className='is-size-4 ml-6' to='Portfolio/contact'>CONTACT ME</NavLink>
           </div>
           <div>
             <DownloadButton className="home-hero-view-resume"/>

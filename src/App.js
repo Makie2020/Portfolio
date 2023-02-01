@@ -13,14 +13,14 @@ import "./sass/mystyles.scss"
 function App() {
   return (
     <div className="App app">
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Navbar/>
           <div className='main'>
             <Routes>  
-              <Route exact path='Portfolio/' element={< HomePage />}></Route>  
-              <Route exact path='Portfolio/contact' element={< ContactPage />}></Route>  
-              <Route exact path='Portfolio/about' element={< AboutPage />}></Route> 
-              <Route exact path='Portfolio/projects' element={< ProjectPage />}></Route>  
+              <Route exact path='/' element={< HomePage />}></Route>  
+              <Route exact path='/contact' element={< ContactPage />}></Route>  
+              <Route exact path='/about' element={< AboutPage />}></Route> 
+              <Route exact path='/projects' element={< ProjectPage />}></Route>  
             </Routes>
           </div>    
         <Footer/>  
