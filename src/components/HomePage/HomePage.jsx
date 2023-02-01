@@ -74,7 +74,7 @@ function HomePage() {
             </div>
           </div>
         </div>  
-        <NavLink className='is-size-4 ml-6 button is-centered' to='Portfolio/projects'>See more</NavLink>
+        <NavLink className='is-size-4 ml-6 button is-centered' to='/projects'>See more</NavLink>
       </section>  
       <section className="homepage__technologies">
         <div className='homepage__section'>
