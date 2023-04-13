@@ -1,8 +1,9 @@
 import './HomePage.css'
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { BsGithub, BsLinkedin } from "react-icons/bs";
 import AboutPage from '../About/AboutPage';
-import { FaReact, FaJsSquare, FaHtml5, FaCss3Alt} from "react-icons/fa";
+import { FaReact, FaJsSquare, FaHtml5, FaCss3Alt, FaSass} from "react-icons/fa";
+import { SiMongodb, SiMysql, SiNodedotjs, SiTypescript } from "react-icons/si";
 import DownloadButton from './DownloadButton';
 
 function HomePage() {
@@ -29,16 +30,16 @@ function HomePage() {
         <span className="homepage__section__span"></span>
         <h2 className="homepage__section__header">Projects</h2>
         <div className="homepage__project mt-6">
-          <img src={"../../Portfolio/assets/images/OxygenShop.png"} alt='OxygenShop App' className="homepage__project__img"/>
+          <img src={"../../Portfolio/assets/images/Dashboard.png"} alt='OxygenShop App' className="homepage__project__img"/>
           <div className="homepage__project__text-container pl-6">
             <div className="homepage__project-text">
-              <h2 className='title'>OxygenShop</h2>
-              <p>OXYGENShop is the first project that is part of the training at OXYGEN Academy.</p>
+              <h2 className='title'>Miranda Dashboard</h2>
+              <p className='subtitle is-6'>This app is also created with Create-React-App, React-Router, Redux, Typescript. The idea for the dashboard is to make an interactive platform for the employees to see what rooms are availible or booked, create new bookings, search for a specific booking or editing a booking. Also you have to possibilty to add new employees and see the reviews of the clients. All the data is stored in an database from MongoDb, see the next project. </p>
               <div className="homepage__project__links is-flex mt-4">
-                <div>
-                  <a className="button mr-4" href="https://makie2020.github.io/OxygenShop/">Live Site</a>
+              <div>
+                  <a className="button mr-4" href="https://makie2020.github.io/dashboard/">Live Site</a>
                 </div>
-                <div><a className="button" href='https://github.com/Makie2020/OxygenShop'>See Code</a></div>
+                <div><a className="button" href='https://github.com/Makie2020/dashboard'>See Code</a></div>
               </div>
             </div>
           </div>
@@ -60,21 +61,23 @@ function HomePage() {
           </div>
         </div>
         <div className="homepage__project mb-6">
-          <img src={"../../Portfolio/assets/images/Coming soon.png"} alt='Buscophoto App' className="homepage__project__img"/>             
+          <img src={"../../Portfolio/assets/images/WebsiteMiranda.png"} alt='Miranda Website' className="homepage__project__img"/>             
           <div className="homepage__project__text-container pl-6">
             <div className="homepage__project-text">
               <h2 className='title'>Hotel Miranda</h2>
-              <p>Coming soon....</p>
+              <p>A HTML, CSS and Javascript website for Hotel Miranda.</p>
               <div className="homepage__project__links is-flex mt-4">
                 <div>
-                  <a className="button mr-4" href="">Live Site</a>
+                <a className="button mr-4" href="https://makie2020.github.io/Miranda-Website/">Live Site</a>
                 </div>
-                <div><a className="button">See Code</a></div>
+                <div><a className="button" href='https://github.com/Makie2020/Miranda-Website'>See Code</a></div>
               </div>
             </div>
           </div>
         </div>  
-        <NavLink className='is-size-4 ml-6 button is-centered' to='/projects'>See more</NavLink>
+        <Link className='is-size-4 ml-6 button is-centered' to='/projects'>
+          See More
+        </Link>
       </section>  
       <section className="homepage__technologies">
         <div className='homepage__section'>
@@ -82,11 +85,20 @@ function HomePage() {
           <h2 className="homepage__section__header">Technologies</h2>
         </div>
         <div className="homepage__tech__container">
-          <div className="homepage__tech is-flex is-justify-content-center">
-            <FaReact className='homepage__icon'/>
-            <FaJsSquare className='homepage__icon'/>
-            <FaHtml5 className='homepage__icon'/>
-            <FaCss3Alt className='homepage__icon'/>
+          <div className="homepage__tech is-flex is-flex-direction-column is-justify-content-center">
+            <div className='is-flex is-justify-content-center'>
+              <FaReact className='homepage__icon'/>
+              <FaJsSquare className='homepage__icon'/>
+              <FaHtml5 className='homepage__icon'/>
+              <FaCss3Alt className='homepage__icon'/>
+              <SiTypescript className='homepage__icon'/>
+              <SiNodedotjs className='homepage__icon'/>
+            </div>
+            <div className='is-flex is-justify-content-center'>
+              <SiMongodb className='homepage__icon'/>
+              <SiMysql className='homepage__icon'/>
+              <FaSass className='homepage__icon'/>
+            </div>  
           </div>
         </div>
       </section>    

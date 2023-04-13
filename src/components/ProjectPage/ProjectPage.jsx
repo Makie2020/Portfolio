@@ -61,16 +61,46 @@ function ProjectPage() {
           </div>
         </div>
         <div className="projects card mt-6">
-          <img src={"../../Portfolio/assets/images/Coming soon.png"} alt='Buscophoto App' className="card-image"/>             
+          <img src={"../../Portfolio/assets/images/WebsiteMiranda.png"} alt='Buscophoto App' className="card-image"/>             
           <div className="projects-container card-content pl-6">
             <div className="projects-text">
-              <h2 className='title'>Hotel Miranda</h2>
-              <p>Coming soon....</p>
+              <h2 className='title'>Website Hotel Miranda</h2>
+              <p className='subtitle'>The dahboard Hotel Miranda project is the second part of the Sprints at OXYGEN Academy.</p> 
+                <p className='subtitle is-6'>The website is build with HTML, CSS and Javascript. The styling of the site is done with SASS with a BEM pattern. There is a version mobile and a Desktop version. SwiperJs is used for the Swipers. </p>
               <div className="is-flex mt-4">
                 <div>
-                  <a className="button mr-4" href="">Live Site</a>
+                  <a className="button mr-4" href="https://makie2020.github.io/Miranda-Website/">Live Site</a>
                 </div>
-                <div><a className="button">See Code</a></div>
+                <div><a className="button" href='https://github.com/Makie2020/Miranda-Website'>See Code</a></div>
+              </div>
+            </div>
+          </div>
+        </div>  
+        <div className="projects card mt-6">
+          <img src={"../../Portfolio/assets/images/Dashboard.png"} alt='Buscophoto App' className="card-image"/>             
+          <div className="projects-container card-content pl-6">
+            <div className="projects-text">
+              <h2 className='title'>Dashboard Hotel Miranda</h2>
+              <p className='subtitle'> Dashboard Hotel Miranda is the second project of the Sprints at OXYGEN Academy.</p> 
+                <p className='subtitle is-6'>This app is also created with Create-React-App, React-Router, Redux, Typescript. The idea for the dashboard is to make an interactive platform for the employees to see what rooms are availible or booked, create new bookings, search for a specific booking or editing a booking. Also you have to possibilty to add new employees and see the reviews of the clients. All the data is stored in an database from MongoDb, see the next project. </p>
+              <div className="is-flex mt-4">
+                <div>
+                  <a className="button mr-4" href="https://makie2020.github.io/dashboard/">Live Site</a>
+                </div>
+                <div><a className="button" href='https://github.com/Makie2020/dashboard'>See Code</a></div>
+              </div>
+            </div>
+          </div>
+        </div>  
+        <div className="projects card mt-6">
+          <img src={"../../Portfolio/assets/images/Database.jpg"} alt='Buscophoto App' className="card-image"/>             
+          <div className="projects-container card-content pl-6">
+            <div className="projects-text">
+              <h2 className='title'>Backend Hotel Miranda</h2>
+              <p className='subtitle'> Database Hotel Miranda is the last project of the Sprints at OXYGEN Academy.</p> 
+                <p className='subtitle is-6'>This application is made in Node Express and the database is hosted in MongoDb. There is also a version of the database in MySQL. </p>
+              <div className="is-flex mt-4">
+                <div><a className="button" href='https://github.com/Makie2020/Miranda-Node'>See Code</a></div>
               </div>
             </div>
           </div>
